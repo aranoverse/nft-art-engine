@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "GoblinDick.WTF";
 const description = "2500个GoblinDickWTF Free Mint, Join GoblinDick Partyyy!  we go all the way, hey! \"we can turn anything GoblinDick\" *giggle*";
-const baseUri = "ipfs://QmZgZ4vqwTLcdCjs6LKqTbx6q4pcrnhuznrgDzRorbwhEv";
+const baseUri = "ipfs://QmZ3wAXhEq5KM5xSBPaDBt1KGtbws4mKQttMrD9T2ZstUJ";
 // ipfs://QmWqGxpw9zu9UzcWVVSrV3bxSywRNPQxXEgZ3dfJu8bF5ox
 const solanaMetadata = {
     symbol: "YC",
