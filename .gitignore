@@ -45,11 +45,11 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 
-build/Release
+build-bak/Release
 
 # Dependency directories
 
-build/
+build-bak/
 dist/
 node_modules/
 jspm_packages/

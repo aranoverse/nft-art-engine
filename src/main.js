@@ -132,14 +132,14 @@ const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();
   let tempMetadata = {
     name: `${namePrefix} #${_edition}`,
-    description: description,
+    // description: description,
     image: `${baseUri}/${_edition}.png`,
     dna: sha1(_dna),
     edition: _edition,
     date: dateTime,
     ...extraMetadata,
     attributes: attributesList,
-    compiler: "HashLips Art Engine",
+    // compiler: "HashLips Art Engine",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
@@ -315,7 +315,7 @@ const saveMetaDataSingleFile = (_editionCount) => {
       )
     : null;
   fs.writeFileSync(
-    `${buildDir}/json/${_editionCount}.json`,
+    `${buildDir}/json/${_editionCount}`,
     JSON.stringify(metadata, null, 2)
   );
 };
@@ -430,3 +430,9 @@ const startCreating = async () => {
 };
 
 module.exports = { startCreating, buildSetup, getElements };
+//T-shirt
+//Big-headed
+//Double-headed
+//One-eyed
+//Weak red-headed mushroom#4.png
+//Red-headed
