@@ -5,9 +5,9 @@ const {NETWORK} = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "GoblinDick.WTF";
+const namePrefix = "Muppet";
 const description = "2500个GoblinDickWTF Free Mint, Join GoblinDick Partyyy!  we go all the way, hey! \"we can turn anything GoblinDick\" *giggle*";
-const baseUri = "ipfs://QmZ3wAXhEq5KM5xSBPaDBt1KGtbws4mKQttMrD9T2ZstUJ";
+const baseUri = "ipfs://QmawET5FPuj6uBmcSvKoS3G9BZV1Sg68Ec6fVncWyhfQay";
 // ipfs://QmWqGxpw9zu9UzcWVVSrV3bxSywRNPQxXEgZ3dfJu8bF5ox
 const solanaMetadata = {
     symbol: "YC",
@@ -42,63 +42,32 @@ const solanaMetadata = {
 // ];
 
 const layerConfigurations = [
-
-
     {
-        // 1Background
-        // 2Body
-        // 3Clothing
-        // 4Ear
-        // 5Head
-        // 6Right eye
-        // 7Left eye
-        // 8Mouth
-        // 9Nose
-        growEditionSizeTo: 68,
+        growEditionSizeTo: 60,
         layersOrder: [
-            {name: "Background"},
-            {name: "Body"},
-            {name: "Clothing"},
-            {name: "Ear"},
-            {name: "Head"},
-            {name: "Right eye"},
-            {name: "Left eye"},
-            {name: "Mouth"},
-            {name: "Nose"},
-        ],
-
-    },
-    {
-        growEditionSizeTo: 69,
-        layersOrder: [
-            {name: "Egg"},
+            {name: "background"},
+            {name: "body and clothing"},
+            {name: "head"},
+            {name: "eyes"},
+            {name: "mouth and nose"},
+            {name: "hair and hat"},
+            {name: "hand"},
+            {name: "props"},
         ]
     },
     {
-        // 1Background
-        // 2Body
-        // 3Clothing
-        // 4Ear
-        // 5Head
-        // 6Right eye
-        // 7Left eye
-        // 8Mouth
-        // 9Nose
-        growEditionSizeTo: 2500,
+        growEditionSizeTo: 3000,
         layersOrder: [
-            {name: "Background"},
-            {name: "Body"},
-            {name: "Clothing"},
-            {name: "Ear"},
-            {name: "Head"},
-            {name: "Right eye"},
-            {name: "Left eye"},
-            {name: "Mouth"},
-            {name: "Nose"},
-        ],
-
+            {name: "background"},
+            {name: "body and clothing"},
+            {name: "head"},
+            {name: "eyes"},
+            {name: "mouth and nose"},
+            {name: "hair and hat"},
+            {name: "hand"},
+        ]
     },
-];
+]
 
 const shuffleLayerConfigurations = false;
 
